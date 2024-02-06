@@ -5,8 +5,8 @@ import ChoomViewer from './App'; // Corrected import statement for choomViewer
 
 const slides = [
   {
-    firstName: 'Paris',
-    lastName: 'France',
+    firstName: 'Silverhand',
+    lastName: 'Johnny',
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhAyH6CWVoZvawExpauMaghou67N1eL-FbUw&usqp=CAU'
   },
   {
