@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import classNames from 'classnames';
-import App from '.App.js'
 import './App.css'; // Import your CSS styles
 
 class choomViewer extends Component {
