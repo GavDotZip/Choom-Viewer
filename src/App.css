@@ -303,7 +303,7 @@ body {
   border-right: none;
   transform: translateX(5px) rotate(-45deg);
 }
-.slider__control--right {
+.slider__control--right { 
   left: auto;
   right: 50px;
   transform: translateX(50px);

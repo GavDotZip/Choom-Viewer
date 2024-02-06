@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import classNames from 'classnames';
-
+import App from '.App.js'
 import './App.css'; // Import your CSS styles
 
-class CitiesSlider extends Component {
+class choomViewer extends Component {
   constructor(props) {
     super(props);
 
@@ -114,4 +114,4 @@ const slides = [
   }
 ];
 
-ReactDOM.render(<CitiesSlider slides={slides} />, document.getElementById('app'));
+ReactDOM.render(<choomViewer slides={slides} />, document.getElementById('app'));
