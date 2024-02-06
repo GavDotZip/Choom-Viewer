@@ -5,27 +5,28 @@ import ChoomViewer from './App'; // Corrected import statement for choomViewer
 
 const slides = [
   {
-    city: 'Paris',
-    country: 'France',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg'
+    firstName: 'Paris',
+    lastName: 'France',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhAyH6CWVoZvawExpauMaghou67N1eL-FbUw&usqp=CAU'
   },
   {
-    city: 'Singapore',
+    firstName: 'Singapore',
+    lastName: 'Czech Republic',
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg'
   },
   {
-    city: 'Prague',
-    country: 'Czech Republic',
+    firstName: 'Prague',
+    lastName: 'Czech Republic',
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg'
   },
   {
-    city: 'Amsterdam',
-    country: 'Netherlands',
+    firstName: 'Amsterdam',
+    lastName: 'Netherlands',
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg'
   },
   {
-    city: 'Moscow',
-    country: 'Russia',
+    firstName: 'Moscow',
+    lastName: 'Russia',
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg'
   }
 ];

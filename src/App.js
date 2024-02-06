@@ -54,12 +54,12 @@ class ChoomViewer extends Component {
                 's--active': activeSlide === index,
                 's--prev': prevSlide === index
               })}
-              key={slide.city}
+              key={slide.firstName}
             >
               <div className="slider__slide-content">
-                <h3 className="slider__slide-subheading">{slide.country || slide.city}</h3>
+                <h3 className="slider__slide-subheading">{slide.lastName || slide.firstName}</h3>
                 <h2 className="slider__slide-heading">
-                  {slide.city.split('').map((l, i) => ( // Added 'i' as the second argument
+                  {slide.firstName.split('').map((l, i) => ( // Added 'i' as the second argument
                     <span key={i}>{l}</span> // Added key prop
                   ))}
                 </h2>
