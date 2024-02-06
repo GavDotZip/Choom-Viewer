@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import classNames from 'classnames';
-import './App.css'; // Import your CSS styles
+import './App.css'; // Assuming you have styles in this file
 
-class choomViewer extends Component {
+class ChoomViewer extends Component {
   constructor(props) {
     super(props);
 
@@ -60,14 +59,14 @@ class choomViewer extends Component {
               <div className="slider__slide-content">
                 <h3 className="slider__slide-subheading">{slide.country || slide.city}</h3>
                 <h2 className="slider__slide-heading">
-                  {slide.city.split('').map(l => (
-                    <span>{l}</span>
+                  {slide.city.split('').map((l, i) => ( // Added 'i' as the second argument
+                    <span key={i}>{l}</span> // Added key prop
                   ))}
                 </h2>
                 <p className="slider__slide-readmore">read more</p>
               </div>
               <div className="slider__slide-parts">
-                {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
+                {[...Array(this.IMAGE_PARTS)].map((_, i) => ( // Used underscore (_) instead of 'x'
                   <div className="slider__slide-part" key={i}>
                     <div
                       className="slider__slide-part-inner"
@@ -86,31 +85,4 @@ class choomViewer extends Component {
   }
 }
 
-const slides = [
-  {
-    city: 'Paris',
-    country: 'France',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg'
-  },
-  {
-    city: 'Singapore',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg'
-  },
-  {
-    city: 'Prague',
-    country: 'Czech Republic',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg'
-  },
-  {
-    city: 'Amsterdam',
-    country: 'Netherlands',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg'
-  },
-  {
-    city: 'Moscow',
-    country: 'Russia',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg'
-  }
-];
-
-ReactDOM.render(<choomViewer slides={slides} />, document.getElementById('app'));
+export default ChoomViewer; // Export the component

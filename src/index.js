@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ChoomViewer from './choomViewer'; // Corrected import statement for choomViewer
+import ChoomViewer from './App'; // Corrected import statement for choomViewer
 
 const slides = [
   {
