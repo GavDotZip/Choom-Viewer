@@ -63,7 +63,7 @@ class ChoomViewer extends Component {
                     <span key={i}>{l}</span> // Added key prop
                   ))}
                 </h2>
-                <p className="slider__slide-readmore">read more</p>
+                <p className="slider__slide-readmore"></p>
               </div>
               <div className="slider__slide-parts">
                 {[...Array(this.IMAGE_PARTS)].map((_, i) => ( // Used underscore (_) instead of 'x'
