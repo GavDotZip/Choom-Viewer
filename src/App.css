@@ -67,7 +67,7 @@ body {
   z-index: 6;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content:first baseline;
   align-items: flex-end; /* Adjusted align-items property */
   flex-direction: column;
   height: 100%;
