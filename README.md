@@ -1,3 +1,18 @@
+# Choom Viewer
+
+This is a quick responsive React.js webpage which I developed to practice with the concepts of the framework 🕸️
+
+The project displays images and text, showcasing the beauty of Cyberpunk 2077 🤖
+
+## Features
+
+- **Interactive Slider**: Seamlessly navigate between slides with smooth animations. 🎚️
+- **Automatic Slide Transition**: Sit back and enjoy as slides transition automatically. 🛺
+- **Dynamic Content**: Engage users with visually captivating images and text. 🎛️
+- **Responsive Design**: Works flawlessly across various screen sizes and devices. 💻 🖥️ 📱
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
