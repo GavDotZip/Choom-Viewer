@@ -7,27 +7,27 @@ const slides = [
   {
     firstName: 'Silverhand',
     lastName: 'Johnny',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhAyH6CWVoZvawExpauMaghou67N1eL-FbUw&usqp=CAU'
+    img: "https://wallpapercg.com/download/johnny-silverhand-4k-wallpaper--16719.jpg"
   },
   {
-    firstName: 'Singapore',
-    lastName: 'Czech Republic',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg'
+    firstName: 'Palmer',
+    lastName: 'Panam',
+    img: 'https://i.pinimg.com/originals/f1/0f/0a/f10f0aab7a164a75ec74f6779e07e817.jpg'
   },
   {
-    firstName: 'Prague',
-    lastName: 'Czech Republic',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg'
+    firstName: 'Alvarez',
+    lastName: 'Judy',
+    img: 'https://4kwallpapers.com/images/wallpapers/judy-alvarez-cyberpunk-2077-xbox-series-x-xbox-one-3840x2160-1860.jpg'
   },
   {
-    firstName: 'Amsterdam',
-    lastName: 'Netherlands',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg'
+    firstName: 'Ward',
+    lastName: 'River',
+    img: 'https://i.pinimg.com/originals/da/8e/50/da8e5074f716396cfbf15b3c83b353d3.jpg'
   },
   {
-    firstName: 'Moscow',
-    lastName: 'Russia',
-    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg'
+    firstName: 'Takemura',
+    lastName: 'Goro',
+    img: 'https://staticdelivery.nexusmods.com/images/3333/1481709-1648839159.jpg'
   }
 ];
 
