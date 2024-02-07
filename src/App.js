@@ -46,7 +46,7 @@ class ChoomViewer extends Component {
     const { activeSlide, prevSlide, sliderReady } = this.state;
     return (
       <div className={classNames('slider', { 's--ready': sliderReady })}>
-        <p className="slider__top-heading">Travelers</p>
+        <p className="slider__top-heading"></p>
         <div className="slider__slides">
           {this.props.slides.map((slide, index) => (
             <div
