@@ -28,6 +28,16 @@ const slides = [
     firstName: 'Takemura',
     lastName: 'Goro',
     img: 'https://staticdelivery.nexusmods.com/images/3333/1481709-1648839159.jpg'
+  },
+  {
+    firstName: 'Eurodyne',
+    lastName: 'Kerry',
+    img: 'https://external-preview.redd.it/XV3yP5K52RqVtoW2--FizqenJklbNv5toOCV3Qg2ew4.jpg?width=1080&crop=smart&auto=webp&s=85d668affe64790efdad1da32f89ed919dcdfd67'
+  },
+  {
+    firstName: 'Amendiares',
+    lastName: 'Rogue',
+    img: 'https://i.redd.it/vhrha2q8ugo61.png'
   }
 ];
 
