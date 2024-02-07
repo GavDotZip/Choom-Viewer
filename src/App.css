@@ -68,7 +68,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end; /* Adjusted align-items property */
   flex-direction: column;
   height: 100%;
   text-transform: uppercase;
