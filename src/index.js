@@ -38,6 +38,11 @@ const slides = [
     firstName: 'Amendiares',
     lastName: 'Rogue',
     img: 'https://i.redd.it/vhrha2q8ugo61.png'
+  },
+  {
+    firstName: 'Vector',
+    lastName: 'Victor',
+    img: 'https://images8.alphacoders.com/120/1205858.jpg'
   }
 ];
 
